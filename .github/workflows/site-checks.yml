@@ -1,8 +1,6 @@
 name: Site checker
 
 on:
-  schedule:
-    - cron: "0 * * * *"
   push:
     branches: [ master, feature-ci ]
 
